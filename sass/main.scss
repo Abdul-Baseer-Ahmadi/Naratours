@@ -1,0 +1,27 @@
+// The following scss files are partial.
+// The Partial file name start with underscore but the _ is not written 
+// when we import it in the main scss file.
+@import "abstract/functions";
+@import "abstract/mixins";
+@import "abstract/variables";
+
+@import "base/animation";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/bg-video";
+@import "components/button";
+@import "components/composition";
+@import "components/card.scss";
+@import "components/feature-box";
+@import "components/form";
+@import "components/popup";
+@import "components/story"; 
+
+@import "layout/footer";
+@import "layout/grid";
+@import "layout/header";
+@import "layout/navigation";
+
+@import "pages/home";
